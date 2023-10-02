@@ -34,6 +34,7 @@ public class ChaineWhile {
 
                 numeroDeCaracteres1 = 0;
                 numeroDeCaracteres2 = 0;
+
             } while (chaineSaisie != null);
         } catch (NullPointerException exception) {
             System.out.print("Vous n'avez rien saisi");
